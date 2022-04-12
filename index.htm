@@ -1,0 +1,139 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <!-- front awesome -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    /> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <div class="container">
+      <!-- <p id="result"></p> -->
+      <input type="tel" name="" id="result" />
+      <div class="grid-container">
+        <div
+          id="7"
+          onclick="document.getElementById('result').value += 7;"
+          class="grid-item"
+        >
+          7
+        </div>
+        <div
+          id="8"
+          onclick="document.getElementById('result').value += 8;"
+          class="grid-item"
+        >
+          8
+        </div>
+        <div
+          id="9"
+          onclick="document.getElementById('result').value += 9;"
+          class="grid-item"
+        >
+          9
+        </div>
+        <div
+          id="add"
+          onclick="document.getElementById('result').value += '+';"
+          class="grid-item"
+        >
+          +
+        </div>
+        <div
+          id="4"
+          onclick="document.getElementById('result').value += 4;"
+          class="grid-item"
+        >
+          4
+        </div>
+        <div
+          id="5"
+          onclick="document.getElementById('result').value += 5;"
+          class="grid-item"
+        >
+          5
+        </div>
+        <div
+          id="6"
+          onclick="document.getElementById('result').value += 6;"
+          class="grid-item"
+        >
+          6
+        </div>
+        <div
+          id="sub"
+          onclick="document.getElementById('result').value += '-';"
+          class="grid-item"
+        >
+          -
+        </div>
+        <div
+          id=" 1"
+          onclick="document.getElementById('result').value += 1;"
+          class="grid-item"
+        >
+          1
+        </div>
+        <div
+          id=" 2"
+          onclick="document.getElementById('result').value += 2;"
+          class="grid-item"
+        >
+          2
+        </div>
+        <div
+          id=" 3"
+          onclick="document.getElementById('result').value += 3;"
+          class="grid-item"
+        >
+          3
+        </div>
+        <div
+          id="product"
+          onclick="document.getElementById('result').value += '*';"
+          class="grid-item"
+        >
+          *
+        </div>
+        <div
+          id=" 0"
+          onclick="document.getElementById('result').value += 0;"
+          class="grid-item"
+        >
+          0
+        </div>
+        <div
+          id="point"
+          onclick="document.getElementById('result').value += '.';"
+          class="grid-item"
+        >
+          .
+        </div>
+        <div
+          id="equal"
+          onclick="{
+            let equal =document.getElementById('result').value;
+            let result1 = eval(equal);
+            document.getElementById('result').value = result1;
+        }"
+          class="grid-item"
+        >
+          =
+        </div>
+        <div
+          id="divite"
+          onclick="document.getElementById('result').value += '/';"
+          class="grid-item"
+        >
+          ÷
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

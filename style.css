@@ -1,0 +1,65 @@
+* {
+  background-color: burlywood;
+}
+h1{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: 1px 1px 10px red;
+  margin-bottom: 0%;
+}
+.container {
+  background-color: yellow;
+  width: 35%;
+  margin: auto;
+}
+/*
+.my-btn{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    line-height: 50px;
+
+  /* height: 150px; */
+
+/* } */
+#result {
+  padding: 2%;
+  margin: 3px;
+  background-color: white;
+  /* width: 50px;  */
+  height: 80px;
+  width: 98.6%;
+  font-size: 50px;
+  justify-content: center;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* grid-template-columns: auto auto auto; */
+  margin: auto;
+  background-color: #7ee8fa;
+background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+
+  padding: 1%;
+
+ justify-content: center;
+}
+.grid-item {
+  background-color: #7cffcb;
+  background-image: linear-gradient(315deg, #7cffcb 0%, #74f2ce 74%);  
+  border: 4px solid rgba(0, 0, 0, 0.8);
+  margin: 4px;
+  padding: 9%;
+  font-size: 150%;
+  text-align: center;
+}
+.grid-item:hover{
+  background-color: #ff4e00;
+background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+
+}
+
